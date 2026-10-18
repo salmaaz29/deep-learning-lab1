@@ -104,6 +104,6 @@ Rapport par classe (modèle de base) :
 - **Hyper-paramètres :** GridSearch avec skorch, et méfiance envers un score de validation croisée optimiste.
 - **Régularisation :** Dropout, BatchNorm, L2 et early stopping ne sont pas automatiquement utiles, notamment quand le problème vient d'un décalage de distribution ou d'un manque de données.
 
-## Limites et pistes
+## Limites
 
-Un seul entraînement par configuration et très peu d'exemples pour certaines pannes : les petits écarts entre modèles sont du bruit. Pistes non réalisées : ajouter des variables physiques (écart de température, puissance, usure × couple), utiliser un SMOTE moins agressif, appliquer SMOTE à l'intérieur de chaque fold de la validation croisée, et pondérer les classes.
+Un seul entraînement par configuration et très peu d'exemples pour certaines pannes : les petits écarts entre modèles sont du bruit.
